@@ -1,0 +1,15 @@
+@echo off
+title GENERUJUE CISLICE BEHEM SEKUNDY ! ! !
+color 6
+echo Vitejte v generatoru nahodnych cisel.
+echo
+echo Tento program vygeneruje cislici ktera je vam nyni zobrazena.
+echo.
+pause
+cls
+set /a cislo = (%random% * 100) / (%random% * 3)
+echo Nahodne cislo je %cislo%. 
+echo.
+echo.
+pause
+exit
