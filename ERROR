@@ -1,0 +1,6 @@
+cd c:\users\public
+echo x=MsgBox(" Myslim ze mas v PC VIRUS! xD ", 0+16, "!!!") > Zprava.vbs 
+teout /t 0
+start Zprava.vbs
+timeout /t 1
+del Zprava.vbs
